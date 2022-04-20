@@ -278,9 +278,7 @@ article section{
         padding-bottom: 40px;
     }
 
-        .nombre-y-apellido{
-
-        }
+        
 
             .nombre{
                 border-radius: 7px;
@@ -330,9 +328,7 @@ article section{
             margin-bottom: 10px;
         }
 
-        .nacimiento-y-domicilio{
-
-        }
+        
 
             .nacimiento{
                 border-radius: 7px;
@@ -347,13 +343,10 @@ article section{
                 padding-bottom: 15px;
                 padding-left: 5%;
                 padding-right: 5%;
-                /* color: #ABABAB; */
                 width: 90%;
             }
         
-            .domicilio-container{
-
-            }
+            
 
                 #domicilio-header{
                     display: none;
@@ -464,7 +457,6 @@ article section{
                 height: 100%;
                 pointer-events: none;
                 border-radius: 7px;
-                /* border: 1px solid red; */
             }
 
             .custom-arrow::before{
@@ -480,9 +472,7 @@ article section{
                 border-top: 0.5em solid black;
             }
 
-        .intereses{
-            
-        }
+        
 
             .interes{
                 border-radius: 7px;
@@ -512,9 +502,7 @@ article section{
             }
 
 
-        .foto-container{
-
-        }
+        
 
             .foto{
                 border-radius: 7px;
@@ -588,7 +576,6 @@ article section{
     padding-top: 50px;
     padding-bottom: 50px;
     display: flex;
-    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
 }
@@ -704,9 +691,7 @@ article section{
 
 
 @media (min-width: 770px){
-    /* main h3{
-        display: block;
-    } */
+   
     nav{
         display: flex;
         justify-content: space-between;
@@ -769,58 +754,55 @@ article section{
     }
 
 
-    .register{
-
+    
+    .nombre-y-apellido{
+        display: flex;
+        justify-content: space-between;
     }
-        .nombre-y-apellido{
-            display: flex;
-            justify-content: space-between;
+        .nombre{
+            width: 45%;
+            float: left;
         }
-            .nombre{
-                width: 45%;
-                float: left;
-            }
-            .apellido{
-                width: 45%;
-                float: right;
-                margin-bottom: 20px;
-            }
-        .nacimiento-y-domicilio{
-            display: flex;
-            justify-content: space-between;
+        .apellido{
+            width: 45%;
+            float: right;
+            margin-bottom: 20px;
         }
-            .nacimiento-container{
-                width: 45%;
-                float: left;
-            }
-            .domicilio-container{
-                width: 45%;
-                float: left;
-            }
-                .domicilio{
-                    margin-top: 48px;
-                }
-        .botones{
-            display: flex;
-            justify-content: space-between;
+    .nacimiento-y-domicilio{
+        display: flex;
+        justify-content: space-between;
+    }
+        .nacimiento-container{
+            width: 45%;
+            float: left;
         }
-            .boton{
-                width: 45%;
+        .domicilio-container{
+            width: 45%;
+            float: left;
+        }
+            .domicilio{
+                margin-top: 48px;
             }
-            #reset{
-                width: 45%;
-                float: left;
-            }
-            #submit{
-                width: 45%;
-                float: right;
-            }
+    .botones{
+        display: flex;
+        justify-content: space-between;
+    }
+        .boton{
+            width: 45%;
+        }
+        #reset{
+            width: 45%;
+            float: left;
+        }
+        #submit{
+            width: 45%;
+            float: right;
+        }
 }
 
 @media(min-width: 936px){
     .subtitles article{
         flex-basis: 20%;
-        /* flex-grow: none; */
     }
     .subtitles h2{
         margin-left: 20px;

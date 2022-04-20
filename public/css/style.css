@@ -334,6 +334,7 @@ article section{
                 border-radius: 7px;
                 margin-left: 0;
                 margin-right: 0;
+                background-color: white;
             }
 
             #nacimiento{
@@ -344,6 +345,7 @@ article section{
                 padding-left: 5%;
                 padding-right: 5%;
                 width: 90%;
+                background-color: white;
             }
         
             
@@ -434,6 +436,7 @@ article section{
                 margin-bottom: 20px;
                 margin-left: 0;
                 margin-right: 0;
+                background-color: white;
                 position: relative;
             }
 
@@ -445,6 +448,7 @@ article section{
                 padding-left: 5%;
                 padding-right: 5%;
                 width: 100%;
+                background-color: white;
             }
 
             .custom-arrow{

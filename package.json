@@ -1,0 +1,17 @@
+{
+  "name": "mercado_liebre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "franzanetti",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "i": "^0.3.7",
+    "normalize.css": "^8.0.1",
+    "path": "^0.12.7"
+  }
+}
